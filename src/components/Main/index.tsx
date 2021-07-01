@@ -1,5 +1,14 @@
+import { Wrapper, Title } from './styles'
+import PhotographySlider from 'components/PhotographySlider'
+import Photography from 'components/Photography'
+
 function Main() {
-  return <h1>Nick memories...</h1>
+  return (
+    <Wrapper>
+      <Title> Em memória de Nick...</Title>
+      <PhotographySlider />
+    </Wrapper>
+  )
 }
 
 export default Main
